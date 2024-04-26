@@ -1,0 +1,15 @@
+body{
+
+margin-left: 500px;
+background-color: rgb(150, 168, 202);
+}
+.search{
+    margin-top: 300px;
+}
+.card{
+    width: 18rem;
+    border: 2px solid;
+    display: none;
+    margin-top: 150px; 
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>weatherapi</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- search -->
+<div id="a" class="search">
+    <input type="text" placeholder="Enter city" id="city">
+    <button onclick="hide(),show()" id="button">search</button>
+</div>
+
+<!-- card -->
+<div>
+    <div class="card" id="b">
+        <div  style="width: 18rem;height: 370px; background-color: azure;">
+            <div style="text-align: center;">
+            <img src="weather.png" alt="..." width="100%" height="200px">
+            <h3 id="title"></h3>
+            <h5 id="description"></h5>
+            <h4 id="humidity"></h4>
+
+            
+                <button onclick="hide()">Back</button>
+            </div>
+            
+        </div>
+
+    
+    </div>
+</div>
+    
+<script src="api.js"></script>
+
+</body>
+</html>
